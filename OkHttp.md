@@ -1,8 +1,8 @@
-## 1.How to open okhttp log ?
+## 1. How to open okhttp log ?
 
-### 1.Add in build.gradle
+### 1. Add in build.gradle
      compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
-## 2.Create HttpLoggingInterceptor and set it to OkHttp Client .
+## 2. Create HttpLoggingInterceptor and set it to OkHttp Client .
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();  
         // set your desired log level
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
