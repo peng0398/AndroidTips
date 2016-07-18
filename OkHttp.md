@@ -1,4 +1,4 @@
-## 1. How to open okhttp log ?
+## 1. How to open Okhttp log ?
 
 ### 1. Add in build.gradle
      compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
